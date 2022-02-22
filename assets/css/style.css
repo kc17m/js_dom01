@@ -1,0 +1,58 @@
+.style {
+    display: inline-block;
+    border-radius: 5px;
+    background: #666;
+    color: white;
+    padding: 5px;
+  }
+
+
+  .example {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+
+  }
+
+  nav {
+      color: #fff;
+      background-color: #000;
+      
+  }
+
+  ul {
+      display: flex;
+      justify-content: space-between;
+      list-style: none;      
+  }
+
+  li {
+      padding: 2%;
+  }
+  li:nth-of-type(5) {
+      background-color: green;
+
+  }
+
+  form {
+    padding: 5px;
+    display: inline-block;
+    background: #999;
+    border-radius: 5px;
+    
+  }
+
+  input {
+    background: #333;
+    color: white;
+  }
+
+  fieldset {
+      width: 80%;
+      height: 80%;
+      background-color: medium;
+  }
+
+  
+
