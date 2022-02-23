@@ -8,26 +8,23 @@ console.log(allElements, elements[4]);
 let myFunction = () => {
 
     console.log("test for if");
-    for (let i = 0; i < elements.length; i++) {
-        console.log("test for Loop");
-        elements[i].style.backgroundColor = "#000";
-        elements[4].style.color = "#fff";
-        elements[i].classList.toggle("toggler")
-
-        // if (elements[4].style.color == "#fff") {
-        //     console.log("test if");
-        // }
-        // else {
-        //     console.log("Test else");
-        //     for (let items of elements) {
-        //         items.style.backgroundColor = "#666";
-        //         items.style.color = "#fff";
-        //         items.classList.remove("toggler")
-        //     }
-        //     //         // }
-        //     //     }
+    if (elements[0].style.backgroundColor != "black") {
+        for (let i = 0; i < elements.length; i++) {
+            console.log("test for Loop");
+            elements[i].style.backgroundColor = "#000";
+            elements[4].style.color = "#fff";
+            // elements[i].classList.toggle("toggler")
+        }
+    }
+    else {
+        for (let i = 0; i < elements.length; i++) {
+            console.log("else abfrage");
+            elements[i].style.backgroundColor = "#666";
+            elements[4].style.color = "#000";
+        }
     }
 }
+
 
 
 
