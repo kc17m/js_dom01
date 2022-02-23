@@ -2,18 +2,14 @@
 
 let allElements = document.getElementsByClassName("style");
 let elements = document.getElementsByClassName("example");
-
 console.log(allElements, elements[4]);
 
 let myFunction = () => {
-
-    console.log("test for if");
     if (elements[0].style.backgroundColor != "black") {
         for (let i = 0; i < elements.length; i++) {
             console.log("test for Loop");
             elements[i].style.backgroundColor = "#000";
             elements[4].style.color = "#fff";
-            // elements[i].classList.toggle("toggler")
         }
     }
     else {
@@ -24,10 +20,6 @@ let myFunction = () => {
         }
     }
 }
-
-
-
-
 
 elements[4].addEventListener("click", myFunction);
 
